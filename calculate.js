@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import { Sum } from "./add.js";
 import { Sub } from "./sub.js";
@@ -37,3 +38,4 @@ else if (answer.operator === "divide") {
     let result4 = divide(answer.firstnum, answer.secondnum);
     console.log(result4);
 }
+;

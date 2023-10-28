@@ -1,9 +1,10 @@
 {
-  "name": "v.s-class-task-calculater",
+  "name": "@calculator/shayan.calculator",
   "version": "1.0.0",
   "description": "",
   "main": "calculate.js",
   "type": "module",
+  "bin": "calculate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +16,7 @@
     "@types/node": "^20.5.6"
   },
   "dependencies": {
+    "calculatorreadjustment": "^5.1.0",
     "inquirer": "^9.2.10"
   }
 }
